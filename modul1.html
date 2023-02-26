@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 2-Bagus Panuluh</title>
+</head>
+<body>
+    <!--Bagus Panuluh / 1301204312-->
+    <h2>Form Pendaftaran</h2>
+		<form action="" method="POST">
+			<table border="0" width="120">
+				<tr>
+					<td>Nama</td>
+                    <td>:</td>
+                    <td width="900"><input type="text" name="inputNama" class="text-field" id="idNama"
+                        placeholder="Masukkan Nama" value="Bagus Panuluh"/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+                    <td>:</td>
+                    <td><input type="password" name="inputpwd" class="text-field" id="idPwd"
+                        placeholder="Masukkan Password"/></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+						<input type="radio" name="kelamin" class="radioB" id="Pria">Pria
+                        <input type="radio" name="kelamin" class="radioB" id="Wanita">Wanita
+					</td>
+				</tr>
+				<tr>
+					<td>Keahlian</td>
+                    <td>:</td>
+                    <td>
+						<input type="checkbox" name="Keahlian" class="checkBox" id="Python"
+                        value="Python"/>Python <br>
+                        <input type="checkbox" name="Keahlian" class="checkBox" id="Java"
+                        value="Java"/>Java <br>
+                        <input type="checkbox" name="Keahlian" class="checkBox" id="C++"
+                        value="C++"/>C++ <br>
+					</td>
+				</tr>
+				<tr>
+					<td>Kelas</td>
+                    <td>:</td>
+					<td>
+						<select name="kelas" class="dropDown" id="IdKelas">
+							<option></option>
+							<option>IF-44-01</option>
+							<option>IF-44-02</option>
+							<option>IF-44-03</option>
+							<option>IF-44-04</option>
+							<option>IF-44-05</option>
+						</select>
+					</td>
+				</tr>
+                <tr>
+                    <td>Deskripsi Diri</td>
+                    <td>:</td>
+                    <td><textarea name="deskripsi" class="textArea" id="idDeskripsi"
+                        placeholder="Masukkan Deskripsi Diri"></textarea></td>
+                </tr>
+                <tr>
+					<td colspan="3" align="center">
+						<button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+</body>
+</html>
